@@ -749,7 +749,7 @@ module Lita
         "Zeus's sexual appetites."
       ]
 
-      route /humanity/, :go, command: true, help: { "lita cah" => "Lita will play a random pair of cards from Cards Against Humanity" }
+      route /humanity/, :go, command: true, help: { "lita humanity" => "Lita will play a random pair of cards from Cards Against Humanity" }
 
       def go(response)
         response.reply(BLACK_CARDS.sample)
