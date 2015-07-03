@@ -1,8 +1,8 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-against-humanity"
-  spec.version       = "0.1.1"
-  spec.authors       = ["Johno"]
-  spec.email         = ["john.obrien@1minus1.com"]
+  spec.version       = "0.1.2"
+  spec.authors       = ["John O'Brien"]
+  spec.email         = ["strayjohno@gmail.com"]
   spec.description   = "Plays a random pair of cards from Cards Against Humanity"
   spec.summary       = "Plays a random pair of cards from Cards Against Humanity"
   spec.homepage      = "https://github.com/muyjohno/lita-against-humanity"
