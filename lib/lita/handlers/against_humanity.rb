@@ -749,8 +749,8 @@ module Lita
         "Zeus's sexual appetites."
       ]
 
-      route /humanity choice/, :choice, command: true, help: { "lita humanity choice" => "Lita can only take you some of the way" }
-      route "humanity", :go, command: true, help: { "lita humanity" => "Lita will play a random pair of cards from Cards Against Humanity" }
+      route /humanity choice/, :choice, command: true, help: { "humanity choice" => "Lita can only take you some of the way" }
+      route "humanity", :go, command: true, help: { "humanity" => "Lita will play a random pair of cards from Cards Against Humanity" }
 
       def go(response)
         response.reply(BLACK_CARDS.sample)
